@@ -35,7 +35,6 @@
     .story-cover {
         div {
             img {
-                // object-position: right bottom!important;
                 width: 100% !important;
                 max-height: 617px !important;
                 margin-top: 20px !important;
@@ -95,36 +94,97 @@
         }
     }
 
-    .story-author {
-        display: flex;
-        padding-top: 2%;
+    .story-footer{
         border-top: 1px solid #f1f1f1;
-        padding: 2% 10% 0%;
+        padding: 2% 10%;
 
-        img {
-            width: 48px;
-            height: 48px;
-            max-height: 48px;
-            max-width: 48px;
-            border-radius: 50%;
+        .story-author {
+            display: flex;
+    
+            img {
+                width: 48px;
+                height: 48px;
+                max-height: 48px;
+                max-width: 48px;
+                border-radius: 50%;
+            }
+    
+            .content {
+                padding-left: 2%;
+    
+                p {
+                    font-family: $secondary-font-family;
+                    font-size: 1em;
+                    color: $base-color;
+                    margin-bottom: 2.4px;
+    
+                    &.story-author-name {
+                        font-weight: 600;
+                    }
+    
+                    &.story-author-title {
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    @media only screen and (max-width: 768px) {
+        .story-details {
+
+            h4 {                
+                font-size: 0.8em;
+            }
+    
+            h1 {
+                
+                font-size: 1.8em;
+            }
+    
+            p {
+                font-size: 1.03em;
+                line-height: 1.7;
+            }
         }
 
-        .content {
-            padding-left: 2%;
-
+        .story-content {
+            padding: 5% 10%;
+    
+            h1 {
+                font-size: 1.4em;
+                line-height: 1.7;
+            }
+    
+            blockquote {
+                font-size: 1.03em;
+            }
+    
             p {
-                font-family: $secondary-font-family;
-                font-size: 1em;
-                color: $base-color;
-                margin-bottom: 2.4px;
-
-                &.story-author-name {
-                    font-weight: 600;
+                font-size: 1.03em;
+    
+                a {
+                    color: $link-color;
+                    text-decoration: underline;
                 }
-
-                &.story-author-title {
-                    font-weight: 400;
+            }
+    
+            li {
+                font-size: 1.03em;
+    
+                a {
+                    color: $link-color;
+                    text-decoration: underline;
                 }
+            }
+        }
+
+        .story-footer{
+            padding: 2% 0%;
+            .story-author {
+                padding: 6% 0%;
             }
         }
     }

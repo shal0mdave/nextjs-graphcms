@@ -4,7 +4,6 @@ const StoryShare = (props) => {
     return (
         <section className="social">
             <div className="link-container">
-                <p>Share:</p>
                 <a href={`https://twitter.com/share?url=${props.url}&text=${props.title}`} title="Twitter" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-twitter"></i>
                 </a>

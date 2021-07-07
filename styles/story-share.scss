@@ -2,13 +2,9 @@
 
 // ----------------Social component
 .social {
-    // padding-top: 2%;
-    // padding-bottom: 1%;
-    // padding-left: 2%;
 
     .link-container {
-        text-align: center;
-        margin: 0px auto;
+        text-align: right;
 
         p {
             font-size: 1.2em;
@@ -23,6 +19,17 @@
     }
 
     @media only screen and (max-width:768px) {
-        padding-top: 5%;
+        padding-top: 4%;
+
+        .link-container {
+            text-align: left;
+            margin: 0px auto;
+    
+            a {
+                font-size: 2.4em;
+                color: $link-color;
+                padding: 2% 1%;
+            }
+        }
     }
 }
