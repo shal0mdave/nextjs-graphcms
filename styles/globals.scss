@@ -1,0 +1,65 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./nav.scss";
+@import "./footer.scss";
+@import "./home.scss";
+@import "./stories.scss";
+@import "./single-post.scss";
+@import "./story-share.scss";
+
+@font-face {
+  font-family: Graphik;
+  src: url("/fonts/graphik/graphik-regular.woff2") format("woff2"), url("/fonts/graphik/graphik-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("/fonts/graphik/graphik-medium.woff2") format("woff2"), url("/fonts/graphik/graphik-medium.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("/fonts/graphik/graphik-semibold.woff2") format("woff2"), url("/fonts/graphik/graphik-semibold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Cambon;
+  src: url('/fonts/cambon/cambon-regular.woff2') format("woff2"), url('/fonts/cambon/cambon-regular.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Cambon;
+  src: url('/fonts/cambon/cambon-demi.woff2') format("woff2"), url('/fonts/cambon/cambon-demi.woff') format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

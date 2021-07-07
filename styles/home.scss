@@ -1,0 +1,162 @@
+@import 'variables';
+
+// ----------------Header component
+.home-header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: $base-background-color;
+
+    .text {
+        height: 100%;
+        display: table;
+
+        .text-inner {
+            display: table-cell;
+            vertical-align: middle;
+
+            h1 {
+                font-family: $primary-font-family;
+                font-size: 3.3em;
+                font-weight: 600;
+                line-height: 1.4;
+                color: $base-color;
+                margin-bottom: 30px;
+            }
+
+            a {
+                background-color: #fff;
+                font-family: $secondary-font-family;
+                font-size: 1.2em;
+                color: $base-color;
+                margin-bottom: 30px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+    }
+
+    img {
+        height: 100%;
+    }
+
+    @media only screen and (max-width:768px) {
+        .text {
+            padding-top: 5%;
+
+            .text-inner {
+                h1 {
+                    font-size: 2.3em;
+                    text-align: center;
+                }
+
+                a {
+                    margin: 0px auto;
+                    text-align: center;
+                    display: table;
+                }
+            }
+        }
+    }
+}
+
+
+
+// ----------------Tech Stack component
+.home-stack {
+    padding-top: 10%;
+    padding-bottom: 4%;
+
+    .heading {
+        h1 {
+            font-family: $primary-font-family;
+            font-size: 3.3em;
+            font-weight: 600;
+            line-height: 1.4;
+            color: $base-color;
+            margin-bottom: 8%;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+
+    .technology {
+        margin-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+
+        div {
+            div {
+                padding-top: 40% !important;
+            }
+
+            img {
+                margin-bottom: 5% !important;
+                min-width: 30% !important;
+                margin: 0px !important;
+            }
+        }
+
+        h1 {
+            font-family: $primary-font-family;
+            font-size: 1.4em;
+            font-weight: 600;
+            line-height: 1.4;
+            color: $base-color;
+        }
+
+        p {
+            font-family: $secondary-font-family;
+            font-size: 1.15em;
+            line-height: 1.7;
+            color: $base-color;
+
+            a {
+                color: $link-color;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .stories-link {
+        font-family: $secondary-font-family;
+        font-size: 1.2em;
+        line-height: 1.7;
+        color: $link-color;
+        text-align: center;
+        margin: 30px auto;
+        display: block;
+        text-decoration: underline;
+    }
+
+    @media only screen and (max-width:768px) {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .heading {
+            padding-top: 5%;
+
+            h1 {
+                font-size: 1.9em;
+            }
+        }
+
+        .technology {
+            margin-bottom: 35px;
+            padding-right: unset;
+
+            div {
+                div {
+                    padding-top: 25% !important;
+                }
+
+                img {
+                    min-width: 20% !important;
+                }
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    }
+}

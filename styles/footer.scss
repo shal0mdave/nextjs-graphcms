@@ -1,0 +1,28 @@
+@import 'variables';
+
+// ----------------Footer component
+footer {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    border-top: 1px solid #f1f1f1;
+
+    .content {
+        p {
+            text-align: center;
+            font-family: $secondary-font-family;
+            font-size: 1em;
+            line-height: 0;
+            color: $base-color;
+
+            a {
+                color: $link-color;
+                text-decoration: underline;
+                font-weight: 600;
+            }
+        }
+    }
+
+    @media only screen and (max-width:768px) {
+        padding-top: 5%;
+    }
+}
