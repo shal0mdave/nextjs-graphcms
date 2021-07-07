@@ -8,7 +8,7 @@ import Layout from '../../components/Layout/Layout'
 import StoryShare from '../../components/Stories/StoryShare'
 import StoryDate from '../../utils/DateFormatter'
 
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
 
     const { data } = await ApolloClientConfig.query({
         query: GET_STORY_QUERY,
@@ -24,19 +24,6 @@ export async function getStaticProps({ params }) {
     }
 }
 
-export async function getStaticPaths() {
-
-    const { data } = await ApolloClientConfig.query({
-        query: GET_STORIES_QUERY,
-    });
-
-    return {
-        paths: data.posts.map(({ slug }) => ({
-            params: { slug },
-        })),
-        fallback: true,
-    }
-}
 
 export default function Story({ props }) {
 
