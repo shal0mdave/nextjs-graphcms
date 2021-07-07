@@ -22,7 +22,7 @@ const Layout = (props) => {
 				<meta property="og:url" content={props.url ? props.url : 'https://graphcmsnextjs.vercel.app/'} />
 				<meta property="og:title" content={props.title ? props.title : 'GraphCMS/NextJs Blog Starter By Shalom Effiom'} />
 				<meta property="og:description" content={props.description ? props.description : 'content="Hit the ground running with Next.js & GraphCMS'} />
-				<meta property="og:image" content={props.image ? props.image : '/logo.png'} />
+				<meta property="og:image" content={props.image ? props.image : '/vercel.png'} />
 
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@sire_shalom" />
@@ -30,7 +30,7 @@ const Layout = (props) => {
 				<meta name="twitter:description" content={props.description ? props.description : 'Hit the ground running with Next.js & GraphCMS'} />
 				<meta name="twitter:creator" content="@sire_shalom" />
 				<meta name="twitter:url" property="og:url" content={props.url ? props.url : 'https://graphcmsnextjs.vercel.app/'} />
-				<meta name="twitter:image" property="og:image" content={props.image ? props.image : '/logo.png'} />
+				<meta name="twitter:image" property="og:image" content={props.image ? props.image : '/vercel.svg'} />
 
 				<title>{props.title ? props.title : 'GraphCMS/NextJs Blog Starter By Shalom Effiom'}</title>
 
