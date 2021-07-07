@@ -80,10 +80,13 @@
             }
 
             h1 {
+                font-size: 1.4em;
+                line-height: 1.6;
                 margin-top: 15px;
                 margin-bottom: 15px;
             }
-            p{
+
+            p {
                 font-size: 1.03em;
             }
         }
@@ -209,6 +212,13 @@
                     img {
                         padding-right: unset !important;
                     }
+                }
+            }
+
+            .story-details {
+                h1{
+                    font-size: 1.4em;
+                    line-height: 1.6;
                 }
             }
 
