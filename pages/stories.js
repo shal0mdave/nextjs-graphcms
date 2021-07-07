@@ -6,7 +6,7 @@ import FeaturedStory from '../components/Stories/FeaturedStory'
 import StoriesGrid from '../components/Stories/StoriesGrid'
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 
 	const { data } = await ApolloClientConfig.query({
 		query: GET_STORIES_QUERY
