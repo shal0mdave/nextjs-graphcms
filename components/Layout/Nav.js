@@ -42,9 +42,7 @@ const Nav = (props) => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/contact">
-                                <a className="nav-link">Contact Creator</a>
-                            </Link>
+                            <a href="mailto:shalomdave2@gmail.com" className="nav-link">Contact Creator</a>
                         </li>
                     </ul>
                     <div className="hamburger">

@@ -23,6 +23,14 @@
                 margin-bottom: 30px;
             }
 
+            p {
+                font-family: $secondary-font-family;
+                font-size: 1.2em;
+                line-height: 1.7;
+                color: $base-color;
+                margin-bottom: 30px;
+            }
+
             a {
                 background-color: #fff;
                 font-family: $secondary-font-family;
@@ -48,7 +56,10 @@
                     font-size: 2.3em;
                     text-align: center;
                 }
-
+                p {
+                    font-size: 1.03em;
+                    text-align: center;
+                }
                 a {
                     margin: 0px auto;
                     text-align: center;

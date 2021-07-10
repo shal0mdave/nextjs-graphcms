@@ -10,7 +10,10 @@ const HeaderSection = () => {
                         <div className="text">
                             <div className="text-inner">
                                 <h1>Hit the ground running with Next.js &amp; GraphCMS </h1>
-                                <a href="https://github.com/shal0mdave/nextjs-graphcms" target="_blank" rel="noopener noreferrer" className="btn"><i className="fab fa-git-alt"></i> Fork on Github</a>
+                                <p>Hello there! Welcome to this exciting little virtual space I created. I will briefly walk you through the JAMStack architecture and help you build your own apps. Let's get this show started!</p>
+                                <a href="https://github.com/shal0mdave/nextjs-graphcms" target="_blank" rel="noopener noreferrer" className="btn">
+                                    <i className="fab fa-git-alt"></i> Fork on Github
+                                </a>
                             </div>
                         </div>
                     </div>
