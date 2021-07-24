@@ -20,8 +20,6 @@ const Layout = (props) => {
 				<meta property="og:description" content={props.description ? props.description : 'Hit the ground running with Next.js & GraphCMS'} />
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content={props.url ? props.url : 'https://nextgraphify.vercel.app/'} />
-				<meta property="og:title" content={props.title ? props.title : 'Nextjs/GraphCMS Blog Starter By Shalom Effiom'} />
-				<meta property="og:description" content={props.description ? props.description : 'content="Hit the ground running with Next.js & GraphCMS'} />
 				<meta property="og:image" content={props.image ? props.image : `https://nextgraphify.vercel.app/img/ship.png`} />
 
 				<meta name="twitter:card" content="summary" />
