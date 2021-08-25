@@ -52,7 +52,7 @@
 
 # Getting Started
 
-First, run the development server:
+First, install dependencies:
 
 ```bash
 npm i
@@ -60,6 +60,8 @@ npm i
 yarn
 ```
 <br />
+
+Then run the development server:
 
 ```bash
 npm run dev
