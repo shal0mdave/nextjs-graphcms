@@ -55,6 +55,13 @@
 First, run the development server:
 
 ```bash
+npm i
+# or
+yarn
+```
+<br />
+
+```bash
 npm run dev
 # or
 yarn dev
